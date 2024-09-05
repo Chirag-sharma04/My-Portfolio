@@ -82,10 +82,10 @@ Footer.defaultProps = {
 };
 
 Footer.propTypes = {
-  email: "c.sharma4002@gmail.com",
-  gitHub: "https://github.com/Chirag-sharma04",
-  linkedIn: "www.linkedin.com/in/chirag-sharma-4b05b22a9",
-  name:"Chirag Sharma",
+  email: PropTypes.string,
+  gitHub: PropTypes.string,
+  linkedIn: PropTypes.string,
+  name:PropTypes.string.isRequired,
 };
 
 export default Footer;
